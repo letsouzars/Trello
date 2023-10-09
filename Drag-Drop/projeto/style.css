@@ -1,0 +1,138 @@
+body {
+    
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(https://variety.com/wp-content/uploads/2021/10/Squid-Game-Netflix.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: white;
+    font-family: 'Game';
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+}
+
+
+.coluna {
+    background-color: #ffffff;
+    border-radius: 3px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+    width: 300px;
+    padding: 3px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.coluna h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: 'Roboto';
+    
+}
+
+ul.tarefas {
+    list-style: none;
+    padding: 0;
+}
+
+.tarefa {
+    background-color: #ffffff;
+    border: 1px solid #e4e4e4;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.tarefa-arrastando {
+    opacity: 0.5;
+}
+
+form {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Roboto';
+}
+
+label {
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-right: 10px;
+    color: white;
+}
+
+input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #b91515;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Roboto';
+
+}
+
+button:hover {
+    background-color: #6b1212;
+}
+
+.container {
+    background-color: #ffffff05;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 30px;
+    max-width: 600px; 
+    margin: 0 auto; 
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    border: 2px solid #ffffff20;
+    backdrop-filter: blur(10px);
+}
+
+@font-face {
+    font-family: 'Game';
+    src: url(Game\ Of\ Squids.otf);
+}
+
+@font-face {
+    font-family: 'Net';
+    src: url(Bebas-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Coolvetica';
+    src: url(coolvetica\ rg.otf);
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(Roboto-Bold.ttf);
+}
+
+li {
+    font-family: 'Roboto';
+}
